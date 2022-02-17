@@ -3,50 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>website</title>
+    <!-- Updated the page title to be more SEO friendly -->
+    <title>Horiseon | Social Solution Services, Inc.</title>
   </head>
 
   <body>
-    <nav class="header">
-      <header>
-        <h1>Hori<span class="seo">seo</span>n</h1>
-        <div class="navigation-bar">
-          <ul>
-            <li>
-              <a href="#search-engine-optimization"
-                >Search Engine Optimization</a
-              >
-            </li>
-            <li>
-              <a href="#online-reputation-management"
-                >Online Reputation Management</a
-              >
-            </li>
-            <li>
-              <a href="#social-media-marketing">Social Media Marketing</a>
-            </li>
-          </ul>
-        </div>
-      </header>
-    </nav>
-
-    <div class="hero">
-      <!--
-      <img
-        src="./assets/images/digital-marketing-meeting.jpg"
-        alt="meeting"
-        id="meeting-img"
-      />-->
-    </div>
+    <!-- Updated to use header and nav tag to add semantic value, delited all the ul and li tags for semantic values-->
+    <header class="header">
+      <h1>Hori<abbr title="Search Engine Optimization">seo</abbr>n</h1>
+      <nav>
+        <a href="#search-engine-optimization">Search Engine Optimization</a>
+        <a href="#online-reputation-management">Online Reputation Management</a>
+        <a href="#social-media-marketing">Social Media Marketing</a>
+      </nav>
+    </header>
+    <!-- Updated from div to section -->
+    <section class="hero"></section>
+    <!-- Updated from div to main for semantic values and all div to section with the class -->
     <main class="content">
       <section
         class="search-engine-optimization"
         id="search-engine-optimization"
       >
+        <!-- To all img tags were added attributes -->
         <img
           src="./assets/images/search-engine-optimization.jpg"
           class="float-left"
-          alt="table set up"
+          alt="table-set-up"
         />
         <h2>Search Engine Optimization</h2>
         <p>
@@ -78,7 +61,7 @@
         <img
           src="./assets/images/social-media-marketing.jpg"
           class="float-left"
-          alt="social media marketing"
+          alt="social-media-marketing"
         />
         <h2>Social Media Marketing</h2>
         <p>
@@ -89,12 +72,13 @@
         </p>
       </section>
     </main>
+    <!--Updated from div to aside and child div tags to article ones-->
     <aside class="benefits">
       <article class="benefit-lead">
         <h3>Lead Generation</h3>
         <img
           src="./assets/images/lead-generation.png"
-          alt="lead generator icon"
+          alt="lead-generator-icon"
         />
         <p>
           Inbound strategies for lead generation require less work for your
@@ -103,7 +87,7 @@
       </article>
       <article class="benefit-brand">
         <h3>Brand Awareness</h3>
-        <img src="./assets/images/brand-awareness.png" alt="awarness icon" />
+        <img src="./assets/images/brand-awareness.png" alt="awarness-icon" />
         <p>
           Users find your business through paid and organic searches, increasing
           the search ranking and visibility for your business.
@@ -113,7 +97,7 @@
         <h3>Cost Management</h3>
         <img
           src="./assets/images/cost-management.png"
-          alt="money engine icon"
+          alt="money-engine-icon"
         />
         <p>
           As the search ranking for your business increases, your advertising
@@ -121,6 +105,7 @@
         </p>
       </article>
     </aside>
+    <!-- Updated from div to footer for semantic values -->
     <footer>
       <h2>Made with ❤️️ by Horiseon</h2>
       <p>&copy; 2019 Horiseon Social Solution Services, Inc.</p>
